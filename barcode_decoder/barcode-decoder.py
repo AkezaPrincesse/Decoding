@@ -70,7 +70,7 @@ def decode_all_barcodes(image_path):
                        cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
         
         # Save and display
-        output_path = "barcodes_decoded.png"
+        output_path = "barcode.jpg"
         cv2.imwrite(output_path, image)
         print(f"\n💾 Saved: {output_path}")
         
@@ -87,7 +87,7 @@ def decode_all_barcodes(image_path):
 
 if __name__ == "__main__":
     # Change this to your image path
-    image_file = "barcode.png"
+    image_file = "barcode.jpg"
     
     # Decode all barcodes
     results = decode_all_barcodes(image_file)

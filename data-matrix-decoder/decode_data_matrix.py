@@ -77,7 +77,7 @@ def decode_datamatrix(image_path):
                        0.9, (0, 255, 0), 2)
         
         # Save annotated image
-        output_path = "data-matrix.png"
+        output_path = "data_matrix.jpg"
         cv2.imwrite(output_path, cv_image)
         print(f"\n💾 Annotated image saved: {output_path}")
         

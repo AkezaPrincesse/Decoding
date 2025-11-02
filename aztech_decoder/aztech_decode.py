@@ -106,7 +106,7 @@ def decode_aztec_code(image_path):
 
 if __name__ == "__main__":
     # Change this to your image path
-    image_file = "aztec-code.png"
+    image_file = "aztech.jpg"
     
     # Decode the Aztec code
     results = decode_aztec_code(image_file)
